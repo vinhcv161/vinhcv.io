@@ -1,0 +1,21 @@
+{
+  "name": "particles.js",
+  "main": "particles.js",
+  "homepage": "https://github.com/vinhcv161/vinhcv161.github.io",
+  "authors": [
+    "Vinh Chu <vinhcv161@gmail.com>"
+  ],
+  "description": "A lightweight JavaScript library for creating particles.",
+  "keywords": [
+    "particle",
+    "particles"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

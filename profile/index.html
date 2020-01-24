@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>VinhChu - SamiHust</title>
+  <link rel="shortcut icon" type="image/png" href="logo/favicon.png"/>
+  <meta name="author" content="Vinh Chu" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="screen" href="css/body.css">
+
+  <script type="text/javascript" src="vendor/bootstrap.js"></script>
+  <script type="text/javascript" src="js/1.js"></script>
+  <link rel="stylesheet" href="vendor/bootstrap.css">
+  <link rel="stylesheet" href="vendor/font-awesome.css">
+
+  <meta property="fb:app_id" content="271866976744929"/>
+</head>
+<body>
+
+<!-- facebook jdk -->
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1&appId=271866976744929&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- menu-top -->
+<div class="menutop">
+
+  <nav class="navbar navbar-light bg-faded navbar-fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html" style="margin-left: -13px"> <img src="images/logo.png" alt="Logo vinhcv161"></a>
+    <ul class="nav navbar-nav float-xs-right">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://www.fb.com/VinhCV161" target="_blank">Giới thiệu</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link kn" href="#khoiedu"  >Kinh nghiệm</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link sp" href="#khoisanpham">Sản phẩm</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="lienhe.html" target="_blank">Thông tin liên hệ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link cm" href="#phanhoi">Comment</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
+
+ </div> <!-- het menu  -->
+
+<!-- count particles -->
+<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+</div>
+
+<div class="khoitt5">
+<!-- particles.js container -->
+  <div id="particles-js">
+    
+  <!--  -->
+    <div class="tt" style="bottom:44%">
+      <img src="images/avatar.png" alt="avatar.png">
+    </div>
+    <div class="tt" style="bottom: 34%">
+      <h2>Chu Văn Vinh</h2>
+    </div>
+    <div class="tt" style="bottom:25%">
+      <p>President of Toan tin K58 class<br> School of Applied Mathematics and Informatics</p>
+    </div>
+    <div class="tt" style="bottom: 16%">
+		  <a href="http://sami.hust.edu.vn/"> Hợp Tác </a>
+	  </div>
+    <div class="xuong"></div>
+  </div>
+</div>
+<!-- HET PHAN KHOTT5 -->
+
+<!-- scripts -->
+<script src="../particles.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+
+
+  <!-- <div class="khoitt5"> -->
+
+<div class="edu" id="khoiedu">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 tieudeto text-xs-center">
+        <h1>Kinh nghiệm & Quá trình học</h1>
+      </div>
+      <div class="col-sm-4 cot1_3">
+        <h2 class="tieudecap2  text-sm-right text-xs-center"> Quá trình <span class="dam">học</span>  </h2>
+        <div class="khoittnho text-sm-right text-xs-center">
+          <h3 class="tieudecap3"> Học mẫu giáo Chim sẻ</h3>
+          <span class="motaqt"> 2001 - 2010  excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+        <div class="khoittnho text-sm-right text-xs-center">
+          <h3 class="tieudecap3"> Học cấp Thăng Long</h3>
+          <span class="motaqt"> 2010 - 2013 excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+        <div class="khoittnho text-sm-right text-xs-center">
+          <h3 class="tieudecap3"> Học ĐHBKHN</h3>
+          <span class="motaqt"> 2013 - 2018 excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+
+      </div> <!-- het cot 4/1 -->
+      <div class="col-sm-4 cot2_3">
+        <img src="images/2.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-sm-4 cot3_3">
+        <h2 class="tieudecap2  text-sm-left text-xs-center"> Quá trình <span class="dam">làm việc</span>  </h2>
+        <div class="khoittnho text-sm-left text-xs-center">
+          <h3 class="tieudecap3"> Làm phần mềm kế toán</h3>
+          <span class="motaqt"> excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+        <div class="khoittnho text-sm-left text-xs-center">
+          <h3 class="tieudecap3"> Làm thiết kế web</h3>
+          <span class="motaqt"> excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+        <div class="khoittnho text-sm-left text-xs-center">
+          <h3 class="tieudecap3"> Giảng dạy & nghiên  cứu</h3>
+          <span class="motaqt"> excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+
+      </div> <!-- het cot 4/1 -->
+    </div>
+  </div>
+</div>   <!-- end edu  -->
+
+
+ <div class="edu" id="khoisanpham">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 tieudeto text-xs-center">
+        <h1>Sản phẩm</h1>
+      </div>
+      <div class="col-sm-4 cot1_3">
+        <h2 class="tieudecap2  text-sm-right text-xs-center"> Quá trình <span class="dam">học</span>  </h2>
+        <div class="khoittnho text-sm-right text-xs-center">
+          <h3 class="tieudecap3"> Học mẫu giáo Chim sẻ</h3>
+          <span class="motaqt"> 2001 - 2010  excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+        <div class="khoittnho text-sm-right text-xs-center">
+          <h3 class="tieudecap3"> Học THPT Xuân Hòa</h3>
+          <span class="motaqt"> 2010 - 2013 excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+        <div class="khoittnho text-sm-right text-xs-center">
+          <h3 class="tieudecap3"> Học ĐHBKHN</h3>
+          <span class="motaqt"> 2013 - 2018 excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+
+      </div> <!-- het cot 4/1 -->
+      <div class="col-sm-4 cot2_3">
+        <img src="images/2.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-sm-4 cot3_3">
+        <h2 class="tieudecap2  text-sm-left text-xs-center"> Quá trình <span class="dam">làm việc</span>  </h2>
+        <div class="khoittnho text-sm-left text-xs-center">
+          <h3 class="tieudecap3"> Làm phần mềm quản lý thư viện</h3>
+          <span class="motaqt"> excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+        <div class="khoittnho text-sm-left text-xs-center">
+          <h3 class="tieudecap3"> Làm thiết kế web</h3>
+          <span class="motaqt"> excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+        <div class="khoittnho text-sm-left text-xs-center">
+          <h3 class="tieudecap3">  Lập trình Java & ứng dụng</h3>
+          <span class="motaqt"> excepteur adipiscing rutrum inceptos  </span>
+          <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
+        </div>
+
+      </div> <!-- het cot 4/1 -->
+    </div>
+  </div>
+ </div>   <!-- end edu  -->
+
+<div class="phanhoi" id="phanhoi">
+  <div class="container text-xs-center">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Phản hồi </h2>
+      </div>
+      <div class="col-sm-8 push-sm-2">
+        <!-- Noi dat form comment fb -->
+        <div class="fb-comments" data-href="https://vinhcv161.github.io" data-width="657" data-numposts="5"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="follow">
+  <div class="styletxt">
+    <span style="padding-left:81%">© 2018 | Design by VinhChu</span>
+  </div>
+</div>
+
+</body>
+</html>
