@@ -58,9 +58,9 @@
  </div> <!-- het menu  -->
 
 <!-- count particles -->
-<div class="count-particles">
+<!-- <div class="count-particles">
   <span class="js-count-particles">--</span> particles
-</div>
+</div> -->
 
 <div class="khoitt5">
 <!-- particles.js container -->
@@ -71,14 +71,14 @@
       <img src="images/avatar.png" alt="avatar.png">
     </div>
     <div class="tt" style="bottom: 34%">
-      <h2>Chu Văn Vinh</h2>
+      <h2>Chu Van Vinh</h2>
     </div>
     <div class="tt" style="bottom:25%">
-      <p>President of Toan tin K58 class<br> School of Applied Mathematics and Informatics</p>
+      <p>Toan tin K58<br> School of Applied Mathematics and Informatics</p>
     </div>
-    <div class="tt" style="bottom: 16%">
+    <!-- <div class="tt" style="bottom: 16%">
 		  <a href="http://sami.hust.edu.vn/"> Hợp Tác </a>
-	  </div>
+	  </div> -->
     <div class="xuong"></div>
   </div>
 </div>
@@ -93,7 +93,7 @@
 <script>
   var count_particles, stats, update;
   stats = new Stats;
-  stats.setMode(0);
+  /*stats.setMode(0);*/
   stats.domElement.style.position = 'absolute';
   stats.domElement.style.left = '0px';
   stats.domElement.style.top = '0px';
@@ -102,9 +102,9 @@
   update = function() {
     stats.begin();
     stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
+    // if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+    //   count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    // }
     requestAnimationFrame(update);
   };
   requestAnimationFrame(update);
@@ -162,11 +162,11 @@
       </div> <!-- het cot 4/1 -->
     </div>
   </div>
-</div>   <!-- end edu  -->
+</div>   <!-- end khoiedu  -->
 
 
  <div class="edu" id="khoisanpham">
-  <div class="container">
+  <!-- <div class="container">
     <div class="row">
       <div class="col-sm-12 tieudeto text-xs-center">
         <h1>Sản phẩm</h1>
@@ -189,8 +189,8 @@
           <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
         </div>
 
-      </div> <!-- het cot 4/1 -->
-      <div class="col-sm-4 cot2_3">
+      </div> --> <!-- het cot 4/1 -->
+      <!-- <div class="col-sm-4 cot2_3">
         <img src="images/2.png" alt="" class="img-fluid">
       </div>
       <div class="col-sm-4 cot3_3">
@@ -211,10 +211,14 @@
           <p>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud! </p>
         </div>
 
-      </div> <!-- het cot 4/1 -->
-    </div>
+      </div> --> <!-- het cot 4/1 -->
+    <!-- </div>
   </div>
- </div>   <!-- end edu  -->
+ </div>  -->  <!-- end khoisanpham  -->
+
+<div class="fb-customerchat"
+ page_id="495192591000953">
+</div>
 
 <div class="phanhoi" id="phanhoi">
   <div class="container text-xs-center">
