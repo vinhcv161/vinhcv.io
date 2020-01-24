@@ -17,6 +17,18 @@
   <meta property="fb:app_id" content="271866976744929"/>
 </head>
 <body>
+
+<!-- facebook jdk -->
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1&appId=271866976744929&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
 <!-- menu-top -->
 <div class="menutop">
 
@@ -25,16 +37,19 @@
     <a class="navbar-brand" href="index.html" style="margin-left: -13px"> <img src="images/logo.png" alt="Logo vinhcv161"></a>
     <ul class="nav navbar-nav float-xs-right">
       <li class="nav-item active">
-        <a class="nav-link" href="https://www.fb.com/VinhCV161" target="_blank">Giới thiệu</span></a>
+        <a class="nav-link" href="lienhe.html" target="_blank">Giới thiệu</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link kn" href="index.html#khoiedu"  >Kinh nghiệm</a>
+        <a class="nav-link kn" href="#khoiedu"  >Kinh nghiệm</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link sp" href="index.html#khoisanpham">Sản phẩm</a>
+        <a class="nav-link sp" href="#">Sản phẩm</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link cm" href="index.html#phanhoi">Comment</a>
+        <a class="nav-link" href="../Blogs/blogs.html" target="_blank">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link cm" href="#phanhoi">Comment</a>
       </li>
     </ul>
     </div>
@@ -62,7 +77,7 @@
 
 <div class="follow">
 	<div class="styletxt">
-		<span style="padding-left:81%">© 2018 | Design by VinhChu</span>
+		<span style="padding-left:81%; padding-bottom: 5px">© 2019 | Design by VinhChu</span>
 	</div>
 </div>
 
